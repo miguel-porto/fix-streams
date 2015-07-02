@@ -1,6 +1,7 @@
 ######################################################################################################
 # FIXES MULTIPLE CONFLUENCES IN STREAM NETWORKS. #
 ##################################################
+# Author: Miguel Porto
 # All nodes which have >2 streams flowing to it are corrected. The outermost streams' end vertices
 # are adjusted by "step" meters along the downgoing stream. New nodes are created at suitable places,
 # and existing lines suitably split.
